@@ -94,7 +94,7 @@ function Remove-Taskflows {
 
 }
 
-function Update-Prefix {
+function Update-DevicePrefix {
     
     # Requires 2 parameters. The first param is the old prefix and the second param will be the new prefix.
     if ($args.Length -ne 2) {throw "Invalid parameter count. Two parameters are required."}
@@ -135,7 +135,7 @@ function Update-Prefix {
 #Remove-Devices -Containing INT0
 #Remove-Devices -All
 #Remove-Taskflows -All
-Update-Prefix HUX ATI
+Update-DevicePrefix HUX ATI
 
 #################################
 ########## End Of File ##########
